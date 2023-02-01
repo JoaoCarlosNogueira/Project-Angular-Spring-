@@ -2,7 +2,6 @@ package com.joaocarlos.crudSpring.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 @Data
 @Entity
