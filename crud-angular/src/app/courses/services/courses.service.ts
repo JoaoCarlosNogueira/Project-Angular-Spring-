@@ -10,13 +10,10 @@ import { delay, first, tap } from 'rxjs';
 })
 export class CoursesService {
 
-<<<<<<< HEAD
+  
   private readonly API = '/api/courses';
   
-=======
-  private readonly API = 'assets/cursos.json';
->>>>>>> parent of bc6410aa (refactor: changing api route at Angular)
-  
+
   constructor(private httpClient: HttpClient) { }
   
   list(){  
